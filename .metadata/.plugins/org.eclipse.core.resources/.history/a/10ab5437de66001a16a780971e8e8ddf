@@ -1,0 +1,29 @@
+package com.javalec.ex;
+
+
+public class MyCalculator {
+	
+	
+	private int firstNum;
+	private int secondNum;
+	
+	public MyCalculator() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void add() {
+		
+	}
+	
+	public void sub() {
+		
+	}
+	public void mul() {
+		
+	}
+	public void div() {
+		
+	}
+	
+
+}

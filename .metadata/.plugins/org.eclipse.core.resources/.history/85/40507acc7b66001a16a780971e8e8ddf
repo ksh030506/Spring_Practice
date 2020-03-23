@@ -1,0 +1,15 @@
+package com.javalec.ex;
+
+public class MainClass {
+	public static void main(String[] args) {
+		
+		Calculation c = new Calculation();
+		c.setA(10);
+		c.getB(2);
+		
+		c.add();
+		c.sub();
+		c.mult();
+		c.div();
+	}
+}
