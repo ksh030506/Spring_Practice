@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;MyCalculator.java&apos; to &apos;Spring_Ex/src/main/java/com.javalec.ex&apos;&#x0A;- Original project: &apos;Spring_Ex&apos;&#x0A;- Destination element: &apos;Spring_Ex/src/main/java/com.javalec.ex&apos;&#x0A;- Original element: &apos;MyCalculator.java&apos;&#x0A;- Update references to refactored element" description="Move file" destination="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.javalec.ex" element1="src/main/resources/MyCalculator.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1584291493458" units="0" version="1.0"/>
-</session>
