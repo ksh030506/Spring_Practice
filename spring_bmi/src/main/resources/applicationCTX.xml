@@ -11,7 +11,7 @@
 		<property name="normal">
 			<value>23</value>
 		</property>
-		<property name=overWeight>
+		<property name="overWeight">
 			<value>25</value>
 		</property>
 		<property name="obesity">

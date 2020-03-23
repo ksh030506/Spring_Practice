@@ -8,7 +8,7 @@ public class MyInfo {
 	private double height;
 	private double weight;
 	private ArrayList<String> hobbys;
-	private BMICalculator bmicalculator;
+	private BMICalculator bmiCalculator;
 
 	public String getName() {
 		return name;
@@ -43,23 +43,29 @@ public class MyInfo {
 	}
 
 	public BMICalculator getBmicalculator() {
-		return bmicalculator;
+		return bmiCalculator;
 	}
 
-	public void setBmicalculator(BMICalculator bmicalculator) {
-		this.bmicalculator = bmicalculator;
+
+	
+	public BMICalculator getBmiCalculator() {
+		return bmiCalculator;
+	}
+
+	public void setBmiCalculator(BMICalculator bmiCalculator) {
+		this.bmiCalculator = bmiCalculator;
 	}
 	
-	public void bmicalculator() {
-		bmicalculator.bmicalculation(weight, height);
+	public void bmiCalculator() {
+		bmiCalculator.bmiCalculation(weight, height);
 	}
-	
+
 	public void getInfo() {
 		System.out.println("이름 : " + name);
 		System.out.println("키 : " + height);
 		System.out.println("몸무게 : " + weight);
 		System.out.println("취미 : " + hobbys);
-		bmicalculator();
+		bmiCalculator();
 	}
 
 }

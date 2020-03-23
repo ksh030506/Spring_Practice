@@ -40,7 +40,7 @@ public class BMICalculator {
 	}
 
 	
-	public void bmicalculation(double weight, double height) {
+	public void bmiCalculation(double weight, double height) {
 		double h = height * 0.01;
 		double result = weight / (h*h);
 		
