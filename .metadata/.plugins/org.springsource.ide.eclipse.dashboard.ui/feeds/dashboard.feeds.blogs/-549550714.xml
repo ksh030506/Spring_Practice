@@ -5,7 +5,22 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-03-23T22:03:00Z</updated>
+  <updated>2020-03-24T12:22:02Z</updated>
+  <entry>
+    <title>Spring Framework 5.2.5 available now</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/03/24/spring-framework-5-2-5-available-now" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Stéphane Nicoll</name>
+    </author>
+    <id>tag:spring.io,2020-03-24:4006</id>
+    <updated>2020-03-24T12:22:02Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 5.2.5 is available now.&lt;/p&gt;
+&lt;p&gt;Spring Framework 5.2.5 includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.2.5.RELEASE"&gt;over 50 fixes and improvements&lt;/a&gt;. This release adds support for the recently released Java 14.&lt;/p&gt;
+&lt;p&gt;As usual, we&amp;rsquo;ll follow up shortly with Spring Boot &lt;code&gt;2.2.6&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.2.5.RELEASE/spring-framework-reference"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Boot for Apache Geode &amp; Pivotal GemFire 1.3.0.M3 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2020/03/23/spring-boot-for-apache-geode-pivotal-gemfire-1-3-0-m3-released" />
@@ -1274,19 +1289,6 @@ shell:&amp;gt;
 &lt;p&gt;You then created a &lt;code&gt;requestResponse()&lt;/code&gt; method in your shell component and annotated it so that when you typed &lt;code&gt;request-response&lt;/code&gt; at the shell prompt, Spring Shell invoked this method. &lt;/p&gt;
 &lt;p&gt;When the &lt;code&gt;requestResponse()&lt;/code&gt; method was called, the client sent some metadata describing the &lt;code&gt;route&lt;/code&gt; to use, and then it sent the request as a &lt;code&gt;Message&lt;/code&gt; object. The server’s response message was printed on the screen using a simple logging statement.&lt;/p&gt;&lt;h1&gt;&lt;a href="#that-s-it-you-rsquo-re-done" class="anchor" name="that-s-it-you-rsquo-re-done"&gt;&lt;/a&gt;That’s It, You&amp;rsquo;re Done!&lt;/h1&gt;
 &lt;p&gt;In this article, you learned how to write a simple RSocket client using Spring Shell. This new client communicates with your RSocketServer over TCP. In the next article, we’ll cover fire-and-forget messages with RSocket and Spring Boot by adding extra functionality to both your client and your server projects.&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Spring I/O organizer and Spring trainer extraordinairre Sergi Almar</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/03/06/a-bootiful-podcast-spring-i-o-organizer-and-spring-trainer-extraordinairre-sergi-almar" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2020-03-06:3987</id>
-    <updated>2020-03-06T04:41:20Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In this episode &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks with &lt;a href="https://twitter.com/SergiAlmar"&gt;Sergi Almar (@sergiAlmar) &lt;/a&gt; about organizing one of the best JVM community shows in the business, Barcelona&amp;rsquo;s &lt;a href="https://springio.net/"&gt;Spring I/O&lt;/a&gt;, being a trainer, and so much more. &lt;/p&gt;
-&lt;iframe title="Spring I/O organizer and Spring trainer extraordinairre Sergi Almar " src="https://www.podbean.com/media/player/jvbuh-d5918d?from=usersite&amp;vjs=1&amp;skin=1&amp;fonts=Helvetica&amp;auto=0&amp;download=1" height="315" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player"&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

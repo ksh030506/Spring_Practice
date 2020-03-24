@@ -3,10 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
 	
-	
-	
-	<bean id="pencil" class="com.javalec.ex.Pencil6B"></bean>
-	
+	<bean id="adminConnection" class="com.javalec.ex.AdminConnection" />
 	
 	
 </beans>

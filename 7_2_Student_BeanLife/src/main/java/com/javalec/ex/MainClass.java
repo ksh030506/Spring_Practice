@@ -12,6 +12,9 @@ public class MainClass {
 		
 		ctx.refresh();
 		
+		Student s = ctx.getBean("student", Student.class);
+		System.out.println(s.getName());
+		
 		ctx.close();
 		
 	}
