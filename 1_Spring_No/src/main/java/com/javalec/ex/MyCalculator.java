@@ -8,13 +8,12 @@ public class MyCalculator {
 	private int secondNum;
 	
 	public MyCalculator() {
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	public void add() {
 		cal.addition(firstNum, secondNum);
 	}
-	
 	public void sub() {
 		cal.subtration(firstNum, secondNum);
 	}
