@@ -1360,3 +1360,22 @@ Caused by: java.lang.ClassNotFoundException: org.eclipse.jdt.internal.corext.ref
 !MESSAGE Could not create action delegate for id: org.springframework.ide.eclipse.beans.ui.editor.actions.refactorPropertyElementAction
 !SUBENTRY 1 org.eclipse.ui 4 0 2020-03-23 23:55:40.791
 !MESSAGE Action must implement IEditorActionDelegate
+!SESSION 2020-03-25 14:06:22.909 -----------------------------------------------
+java.version=1.8.0_241
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/user/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-03-25 23:24:13.167
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-03-25 23:24:13.167
+!MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2020-03-25 23:24:13.542
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-03-25 23:24:13.542
+!MESSAGE Commands should really have a category: plug-in='org.springframework.ide.eclipse.boot', id='org.springframework.ide.eclipse.boot.ui.EnableDisableBootDevtools', categoryId='org.springframework.ide.eclipse.boot.commands.category'
+
+!ENTRY org.eclipse.core.net 1 0 2020-03-25 23:24:13.870
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
