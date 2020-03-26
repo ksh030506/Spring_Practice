@@ -5,7 +5,7 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-03-25T15:30:26Z</updated>
+  <updated>2020-03-25T15:30:00Z</updated>
   <entry>
     <title>Liveness and Readiness Probes with Spring Boot</title>
     <link rel="alternate" href="https://spring.io/blog/2020/03/25/liveness-and-readiness-probes-with-spring-boot" />
@@ -14,7 +14,7 @@
       <name>Brian Clozel</name>
     </author>
     <id>tag:spring.io,2020-03-19:4001</id>
-    <updated>2020-03-25T15:30:26Z</updated>
+    <updated>2020-03-25T15:30:00Z</updated>
     <content type="html">&lt;div class="paragraph"&gt;
 &lt;p&gt;The Spring Boot team is actively working on a Kubernetes theme for the next 2.3.0 release. After &lt;a href="https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1"&gt;Docker images creation&lt;/a&gt; and &lt;a href="https://docs.spring.io/spring-boot/docs/2.3.x-SNAPSHOT/reference/html/spring-boot-features.html#boot-features-graceful-shutdown"&gt;Graceful Shutdown support&lt;/a&gt;, it’s now time to introduce Liveness and Readiness Probes support.&lt;/p&gt;
 &lt;/div&gt;
@@ -173,7 +173,7 @@ Check out &lt;a href="https://docs.spring.io/spring-boot/docs/2.3.x-SNAPSHOT/ref
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
-&lt;p&gt;HTTP Probes are only configured for applications running on Kubernetes. You can give it a try locally by forcing the cloud platform detection with the &lt;code&gt;management.health.probes.enabled=true&lt;/code&gt; configuration property. Because Probes are Health Groups, you’ll get many additional features such as configuring HTTP status mappers, security, details visibility…&lt;/p&gt;
+&lt;p&gt;HTTP Probes are only configured for applications running on Kubernetes. You can give it a try locally by manually enabling the probes with the &lt;code&gt;management.health.probes.enabled=true&lt;/code&gt; configuration property. Because Probes are Health Groups, you’ll get many additional features such as configuring HTTP status mappers, security, details visibility…&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;You can of course configure additional Health Indicators to be part of the Probes, checking for the state of external systems: a database, a Web API, a shared cache. Given an existing &lt;code&gt;CacheCheckHealthIndicator&lt;/code&gt;, you can augment the liveness Probe with:&lt;/p&gt;
