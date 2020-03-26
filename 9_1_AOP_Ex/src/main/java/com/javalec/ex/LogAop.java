@@ -15,7 +15,7 @@ public class LogAop {
 		
 		
 		try {
-			Object obj = joinpoint.proceed();
+			Object obj = joinpoint.proceed();  //대상의 핵심코드가 실행된다 즉 메소드가 실행된다
 			return obj;
 		} finally {
 			long et = System.currentTimeMillis();
@@ -25,3 +25,6 @@ public class LogAop {
 	}
 
 }
+
+
+//공통기능

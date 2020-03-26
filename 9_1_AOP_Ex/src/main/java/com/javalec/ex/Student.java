@@ -38,12 +38,12 @@ public class Student {
 	public void setClassNum(int classNum) {
 		this.classNum = classNum;
 	}
-	
+	//공통기능 실행 => LogAop실행
 	public void getStudentInfo() {
 		System.out.println("이름 : " + getName());
 		System.out.println("나이 : " + getAge());
 		System.out.println("학년 : " + getGradeNum());
 		System.out.println("반 : " + getClassNum());
-	}
-
+	}  //핵심기능 적용 대상 => 메소드
+	//공통기능 실행 => LogAop실행
 }

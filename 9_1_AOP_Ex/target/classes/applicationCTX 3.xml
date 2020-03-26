@@ -6,9 +6,21 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
 	
 	
+	<bean id="logAop" class="com.javalec.ex.LogAop" />
 	
+	<aop:config>
+		<aop:aspect>
+			<aop:pointcut expression="within(com.javalec.ex.*)" id="publicM"/>
+			<aop:around method="loggerAop" pointcut-ref="publicM"/>
+		</aop:aspect>
+	</aop:config>
 	
-	
+	<bean id="student" class="com.javalec.ex.Student">
+		<property name="name" value="홍길동" />
+		<property name="age" value="10" />
+		<property name="gradeNum" value="3" />
+		<property name="classNum" value="5" />
+	</bean>
 	
 	
 	

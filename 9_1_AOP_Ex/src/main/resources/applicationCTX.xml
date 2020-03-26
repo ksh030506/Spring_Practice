@@ -9,7 +9,8 @@
 	<bean id="logAop" class="com.javalec.ex.LogAop" />
 	
 	<aop:config>
-		<aop:aspect>
+		<aop:aspect id="logger" ref="logAop">
+		<!-- 실제로 핵심 코드는 이름을 publicM 핵심 코드는 저 위치에 적용하겠다 어떤 기능을 줄꺼냐 => loggerAop라는 기능을 주겠다 어떤 포인트컷에 주겠냐? publicM에 주겠다-->
 			<aop:pointcut expression="within(com.javalec.ex.*)" id="publicM"/>
 			<aop:around method="loggerAop" pointcut-ref="publicM"/>
 		</aop:aspect>
@@ -22,10 +23,11 @@
 		<property name="classNum" value="5" />
 	</bean>
 	
-	
-	
-	
-	
+	<bean id="worker" class="com.javalec.ex.Worker">
+		<property name="name" value="홍길순" />
+		<property name="age" value="50" />
+		<property name="job" value="개발자" />
+	</bean>
 	
 	
 </beans>
