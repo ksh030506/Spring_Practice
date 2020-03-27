@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="7_3_Scope"/>
-<aop-project name="9_1_AOP_Ex"/>
 <aop-project name="2_Spring_Yes"/>
 <aop-project name="8_2_Environment_Xml"/>
+<aop-project name="9_2_AOP_Java_Ex"/>
 <aop-project name="5_Penil_Ex"/>
 <aop-project name="4_constructor_arg"/>
 <aop-project name="7_2_Student_BeanLife"/>
