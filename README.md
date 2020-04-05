@@ -1,4 +1,4 @@
-# workspace_JAVA_Spring
+# Spring_Practice
 
 ## 프로젝트 소개
 처음으로 `Spring`을 배웠을 때 커밋하며 올려본 깃허브이다 => 연습용 깃허브도 차곡차곡 기록
