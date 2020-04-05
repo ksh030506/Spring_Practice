@@ -1,6 +1,1 @@
-INDEX VERSION 1.4+/Users/user/workspace_JAVA_Spring/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1942878247.index
-2492378317.index
-2318871891.index
-215633707.index
-887811597.index
+INDEX VERSION 1.4+/Users/user/Documents/GitHub/workspace_JAVA_Spring/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
